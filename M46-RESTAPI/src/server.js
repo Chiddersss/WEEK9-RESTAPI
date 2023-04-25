@@ -8,8 +8,6 @@ const userRouter = require("./users/routes")
 
 const User = require("./users/model")
 
-
-
 const app = express()
 
 app.use(express.json())
