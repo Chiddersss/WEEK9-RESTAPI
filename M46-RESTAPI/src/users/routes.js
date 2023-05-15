@@ -9,7 +9,7 @@ userRouter.post("/users/register", hashPass, registerUser)
 
 userRouter.post("/users/login", comparePass, login)
 
-userRouter.get("/users/getUsers", tokenCheck, getAllUsers) // protected endpoint
+userRouter.get("/users/getAllUsers", tokenCheck, getAllUsers) // protected endpoint
 
 userRouter.get("/users/authCheck", tokenCheck, login)
 
